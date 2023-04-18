@@ -21,10 +21,8 @@ Limitations Of The Data
 - Some values populated as Missing/Unknown/Not collected/invalid across most columns; These were labeled as "Undefined" throughout the analysis. 
 
 Methodology:
-
-Data for this report was accessed through the SAMHSA website (www.samhsa.gov/data) and downloaded locally in CSV format. This data was then accessed and transformed via Jupyter Notebook and Big Query. Some data was processed via Excel (see: Comorbidity dashboards). 
-
-The python libraries used included: pandas, numpy, dask.dataframe, statistics, pandas_gbq, os, google-cloud-storage, google-cloud-bigquery[pandas], google-cloud.
+- Data for this report was accessed through the SAMHSA website (www.samhsa.gov/data) and downloaded locally in CSV format. This data was then accessed and transformed via Jupyter Notebook and Big Query. Some data was processed via Excel (see: Comorbidity dashboards). 
+- The python libraries used included: pandas, numpy, dask.dataframe, statistics, pandas_gbq, os, google-cloud-storage, google-cloud-bigquery[pandas], google-cloud.
 
 Data was downloaded from https://www.samhsa.gov/data/data-we-collect/mh-cld-mental-health-client-level-data 
 
